@@ -1,17 +1,18 @@
 #include <iostream>
 #include <iomanip> 
+using namespace std;
 
 int main() {
     double f, c;
 
-    std::cout << "ÇëÊäÈë»ªÊÏÎÂ¶È: ";
-    std::cin >> f;
+    cout << "è¯·è¾“å…¥åŽæ°æ¸©åº¦: ";
+    cin >> f;
 
     c = (f - 32) * 5.0 / 9.0;
 
  
-    std::cout << std::fixed << std::setprecision(2);
-    std::cout << "ÉãÊÏÎÂ¶È: " << c<< std::endl;
+    cout << fixed << setprecision(2);
+    cout << "æ‘„æ°æ¸©åº¦: " << c<< endl;
 
     return 0;
 }
